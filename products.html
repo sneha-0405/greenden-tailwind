@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind CSS cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="./images/logo.png">
+</head>
+<body>
+    <!--products page-->
+
+    <!--Nav bar-->
+    <nav class="bg-green-800 p-4 flex place-items-center justify-between text-xl shadow-2xl  text-white sticky top-0 z-10">
+        <h1 class="text-3xl uppercase">greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-6 h-6 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+        <ul class="gap-5 hidden md:flex">
+            <li><a class="hover:text-gray-200 hover:underline" href="index.html">Home</a></li>
+            <li><a class="hover:text-gray-200 hover:underline" href="products.html">Products</a></li>
+            <li><a class="hover:text-gray-200 hover:underline" href="contact.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!--Products-->
+
+    <section class="p-4 mt-5 text-center">
+        <h1 class="text-3xl font-medium">Our Products</h1>
+        <input type="text" placeholder="Search for a Product..." class="border border-black p-4 mt-2 rounded" style="width: 80%; font-size:large;">
+        <div class="grid grid-cols-2 mt-10 gap-2 md:grid-cols-4">
+            <div>
+                <img src="./images/product_1.png" alt="AloeVera" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p class="font-medium">Aloe Vera </p>
+                <p class="font-medium">$35</p>
+            </div>
+
+            <div>
+                <img src="./images/product_2.png" alt="Snake Plant" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p class="font-medium">Snake Plant</p>
+                <p class="font-medium">$30</p>
+            </div>
+
+            <div>
+                <img src="./images/product_3.png" alt="Lavender Plant" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p class="font-medium">Lavender</p>
+                <p class="font-medium">$30</p>
+            </div>
+
+            <div>
+                <img src="./images/product_4.png" alt="Lucky Bamboo" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p class="font-medium">Lucky Bamboo</p>
+                <p class="font-medium">$45</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_4.png" alt="RosePlant" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p class="font-medium">Rose Plant</p>
+                <p class="font-medium">$20</p>
+            </div>
+
+            <div>
+                <img src="./images/product_5.png" alt="PrayerPlant" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p class="font-medium">Prayer Plant</p>
+                <p class="font-medium">$20</p>
+            </div>
+
+            <div>
+                <img src="./images/product_6.png" alt="MoneyPlant" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p class="font-medium">Chinese Money Plant</p>
+                <p class="font-medium">$20</p>
+            </div>
+
+            <div>
+                <img src="./images/product_7.png" alt="Hibiscus" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p class="font-medium">Hibiscus</p>
+                <p class="font-medium">$25</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <section class="bg-green-800 p-20 mt-10 text-white" style="cursor: pointer;">
+        <h2 class="text-3xl font-bold hover:cursor-pointer">Greenden</h2>
+        <p class="pt-5">The standard chunk of Lorem ipsum since the 1500s is reprodused below for those interest</p>
+        <p class="pt-2">@copy 2025 greenday.com</p>
+    </section>
+</body>
+</html>

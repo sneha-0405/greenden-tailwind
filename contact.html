@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind CSS cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="./images/logo.png">
+</head>
+<body>
+    <nav class="bg-green-800 p-4 flex place-items-center justify-between text-xl shadow-2xl  text-white sticky top-0 z-10">
+        <h1 class="text-3xl uppercase">greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-6 h-6 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+        <ul class="gap-5 hidden md:flex">
+            <li><a class="hover:text-gray-200 hover:underline" href="index.html">Home</a></li>
+            <li><a class="hover:text-gray-200 hover:underline" href="products.html">Products</a></li>
+            <li><a class="hover:text-gray-200 hover:underline" href="contact.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!--Contact-->
+    <div class="p-4 mx-auto max-w-xl bg-white font-[sans-serif]">
+        <h1 class="text-2xl text-gray-800 font-bold text-center">Contact us</h1>
+        <form class="mt-8 space-y-4">
+          <input type='text' placeholder='Name'
+            class="w-full  py-2.5 px-4 text-black-800 focus:border-gray-500  text-sm outline-none rounded-xl shadow-xl border border-gray-300"/>
+          <input type='email' placeholder='Email'
+            class="w-full  py-2.5 px-4 text-black-800 focus:border-gray-500 text-sm outline-none  rounded-xl shadow-xl border border-gray-300" />
+          
+          <textarea placeholder='Message' rows="4"
+            class="w-full  px-4 text-black-800 focus:border-gray-500  text-sm outline-none pt-3 rounded-xl shadow-xl border border-gray-300"></textarea>
+            <button type="button"
+            class="text-white bg-black tracking-wide text-sm px-5 py-2 rounded-md mx-auto block w-40 outline-none">
+            Send
+        </button>
+        </form>
+      </div>
+
+
+    <section class="bg-green-800 p-20 mt-10 text-white" style="cursor: pointer;">
+        <h2 class="text-3xl font-bold hover:cursor-pointer">Greenden</h2>
+        <p class="pt-5">The standard chunk of Lorem ipsum since the 1500s is reprodused below for those interest</p>
+        <p class="pt-2">@copy 2025 greenday.com</p>
+    </section>
+</body>
+</html>
